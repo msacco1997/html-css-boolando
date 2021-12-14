@@ -19,30 +19,29 @@
   }
   
   .container:hover .img2 {
-    display: block;
+    display: inline-block;
   }
 
 }
 .heart{
     position: fixed;
-    
     padding: 100px 100px 50px 50px;
 
 }
-#button{
-margin-right: 5px;
-    
 
-}
 .btnred{
     background-color: rgb(255, 44, 44);
     border: none;
     color: white;
+    position: fixed;
+    display: inline-block;
 }
 .btngreen{
     background-color: rgb(25, 124, 35);
     border: none;
     color: white;
+    position: absolute;
+    display: inline-block;
 }
 }
 .nome{
