@@ -3,64 +3,68 @@
     height: 40%;
     width: 35%;
     background-repeat: no-repeat;
+    display: inline-block;
 
-}
+    }
 .container {
     position: relative;
     float: left;
     display: inline-block;
-  }
+    }
   
   .container .img2 {
     position: absolute;
     left: 0;
     top: 0;
     display: none;
-  }
+    }
   
   .container:hover .img2 {
     display: inline-block;
-  }
+    }
+1
 
-}
 .heart{
     position: fixed;
     padding: 100px 100px 50px 50px;
 
-}
+    }
 
 .btnred{
     background-color: rgb(255, 44, 44);
     border: none;
     color: white;
-    position: fixed;
+    
     display: inline-block;
-}
+    }
 .btngreen{
     background-color: rgb(25, 124, 35);
     border: none;
     color: white;
-    position: absolute;
+    
     display: inline-block;
-}
-}
+    }
+
 .nome{
 
-}
+    }
 .title{
     font-weight: bold;
 
-}
+    }
 .price{
 
-}
+    }
 
 .red{
     color: rgb(255, 44, 44);    
-}
+    }
 .cut{
     text-decoration: line-through;
-}
+    }
 .aspect1{
     aspect-ratio: 1/1;
-}
+    }
+#inline{
+    display: inline-block;
+    }
