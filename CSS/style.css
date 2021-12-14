@@ -1,0 +1,64 @@
+.container{
+    position: relative;
+    height: 800;
+    width: 640;
+    background-repeat: no-repeat;
+
+}
+.img{
+    position: relative;
+
+
+}
+.img1{
+    background-size: cover;
+    position: absolute;
+    visibility: visible;
+    height: 60%;
+
+}
+.img2{
+    background-size: cover;
+    position: absolute;
+    visibility: hidden;
+
+}
+.heart{
+
+}
+.button1{
+    border: none;
+    background-color: rgb(255, 44, 44);
+    margin: 90% 90% 10% 10%;
+    color: white;
+    position: absolute;
+
+}
+.button2{
+    border: none;
+    background-color: rgb(44, 255, 44);
+    margin-left: 10px;
+    margin-right: 6px;
+    color: white;
+    position: absolute;
+
+}
+.nome{
+
+}
+.title{
+
+}
+.price{
+
+}
+
+.red{
+    color: rgb(255, 44, 44);    
+}
+.cut{
+
+}
+.aspect1{
+    aspect-ratio: 1/1;
+}
