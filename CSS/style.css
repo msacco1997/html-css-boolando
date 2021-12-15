@@ -1,70 +1,89 @@
-.container{
-    position: relative;
-    height: 40%;
-    width: 35%;
-    background-repeat: no-repeat;
-    display: inline-block;
+html {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+header, section, footer {
+    padding: 20px 0;
+}
 
-    }
+
 .container {
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+.cards-wrapper .card {
+    display: inline-block;
+    width: 33.33%;
+    margin-bottom: 25px;
+    font-size: 16px;
+    margin-right: 2%;
+}
+.cards-wrapper .card:nth-child(3n){
+    margin-right: 0;
+}
+.card .card__img-wrapper{
     position: relative;
-    float: left;
-    display: inline-block;
-    }
-  
-  .container .img2 {
+}
+
+.card .card__main-img {
     position: absolute;
-    left: 0;
     top: 0;
-    display: none;
-    }
-  
-  .container:hover .img2 {
-    display: inline-block;
-    }
-1
-
-.heart{
-    position: fixed;
-    padding: 100px 100px 50px 50px;
-
-    }
-
-.btnred{
-    background-color: rgb(255, 44, 44);
-    border: none;
+    left: 0;
+}
+.card__img-wrapper:hover .card__main-img {
+    visibility: hidden;
+}
+.card .card__like-button {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    right: 0;
+    top: 25px;
+    text-align: center;
+    line-height: 40px;
+}
+.card__badge-wrapper {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+}
+.card__badge-wrapper .badge {
     color: white;
-    
-    display: inline-block;
-    }
-.btngreen{
-    background-color: rgb(25, 124, 35);
-    border: none;
-    color: white;
-    
-    display: inline-block;
-    }
+    font-weight: 600;
+    padding: 4px 6px;
+}
+.badge.badge--sale {
+    background-color: red;
+}
+.badge.badge--category {
+    background-color: green;
+}
 
-.nome{
 
-    }
-.title{
-    font-weight: bold;
 
-    }
-.price{
 
-    }
 
-.red{
-    color: rgb(255, 44, 44);    
-    }
-.cut{
-    text-decoration: line-through;
-    }
-.aspect1{
-    aspect-ratio: 1/1;
-    }
-#inline{
-    display: inline-block;
-    }
+
+
+.debug .container {
+    border: 2px solid;
+    padding: 20px;
+}
+.debug .card {
+    border: 1px dashed red;
+}
+.debug .card__info {
+    border: 1px double blue;
+}
